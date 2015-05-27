@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+
+<MinimiseResult>
+  <version>1</version>
+
+  <MinimiseOptions>
+    <minuit_type>MnMigrad</minuit_type>
+    <minuit_strategy>2</minuit_strategy>
+    <minuit_strategy>1e-10</minuit_strategy>
+  </MinimiseOptions>
+
+  <Channels>
+    <elem>pi:pi</elem>
+  </Channels>
+
+  <Minimum>
+    <chisq>29.3842213518998</chisq>
+    <n_data>20</n_data>
+    <n_free_params>2</n_free_params>
+    <n_dof>18</n_dof>
+    <n_fcn_calls>42</n_fcn_calls>
+  </Minimum>
+
+  <PartialWaves>
+    <elem>
+      <J>1</J>
+      <model>elastic_rel_breit_wigner</model>
+
+<fixed_params>
+      <J>1</J>
+      <channels>
+        <elem>pi:pi</elem>
+      </channels>
+    </fixed_params>
+
+
+      <params>
+        <elem>
+          <name>gR</name>
+          <num>1</num>
+          <value>5.64433309038348</value>
+          <error>0.0767399849061796</error>
+          <minos_error>-0.0767331184155571 0.0768017760843709</minos_error>
+        </elem>
+
+        <elem>
+          <name>mR</name>
+          <num>0</num>
+          <value>0.131660167684569</value>
+          <error>0.000357691212569899</error>
+          <minos_error>-0.000356994136686156 0.000358784137118731</minos_error>
+        </elem>
+</params>
+    </elem>
+  </PartialWaves>
+
+
+  <ParameterCorrelations>
+    <elem> 1.00 -0.02 </elem>
+    <elem>-0.02  1.00 </elem>
+  </ParameterCorrelations>
+</MinimiseResult>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<FitSpectrum>
+  <!-- input to fit the finite volume spectrum with a set of model amps -->
+  <version>1</version>
+
+  <!-- somewhere need to specify the minimize options (minos, Simplex, Migrad ...) -->
+  <MinimiseOptions>
+    <minuit_type>MnMigrad</minuit_type>
+    <minuit_strategy>2</minuit_strategy>
+    <minuit_precision>1.0e-10</minuit_precision>
+    <minos>true</minos>
+    <verbose>true</verbose>
+    <max_pass>4</max_pass>\
+    <determinant>SminusU</determinant>
+    <max_level_chisq>10.0</max_level_chisq>
+  </MinimiseOptions>
+
+  <!-- the global list of desired coupled channels to consider -->
+  <Channels>
+    <elem>pi:pi</elem> 
+  </Channels>
+  
+  <!-- NOW SPECIFY THE PARTIAL WAVE AMPLITUDE PARAMETERISATIONS -->
+  <PartialWaves>
+   
+    <elem>
+      <J>1</J>
+      <model>elastic_rel_breit_wigner</model>
+
+      <fixed_params>
+	<J>1</J>
+	<channels> 
+	  <elem>pi:pi</elem> 
+	</channels>	
+      </fixed_params>	
+
+      <params>
+	<elem>
+          <name>mR</name>
+          <start>0.135</start>   
+          <err>0.001</err>       
+          <limited>0.01 0.25</limited>
+         <fixed>false</fixed> 
+        </elem>
+	<elem>
+          <name>gR</name>
+          <start>5.8</start>     
+          <err>0.5</err>    
+          <limited>-25.0 25.0</limited>
+         <fixed>false</fixed>      
+        </elem>
+      </params>	 
+ 
+    </elem>
+
+  </PartialWaves>
+</FitSpectrum>

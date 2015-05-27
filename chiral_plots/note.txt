@@ -1,0 +1,10 @@
+
+the folder fpi.0.0169 contains the fits using Andre's scale 
+SU(2) p^4 looks good
+SU(2) p^6 could not fit!
+SU(3) p^4 looks good
+
+the folder fpi.0.0177 contains the fits using the HS scale
+SU(2) p^4 looks good
+SU(2) p^6 could not fit!
+SU(3) p^4 fit does not looks good, but the extrapolation looks good
