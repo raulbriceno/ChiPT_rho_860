@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+
+
+<MinimiseResult>
+  <version>1</version>
+
+  <MinimiseOptions>
+    <minuit_type>MnMigrad</minuit_type>
+    <minuit_strategy>1</minuit_strategy>
+    <minuit_strategy>1e-12</minuit_strategy>
+  </MinimiseOptions>
+
+  <Channels>
+    <elem>pi:pi</elem>
+  </Channels>
+
+  <Minimum>
+    <chisq>25.5610680033823</chisq>
+    <n_data>24</n_data>
+    <n_free_params>7</n_free_params>
+    <n_dof>17</n_dof>
+    <n_fcn_calls>132</n_fcn_calls>
+  </Minimum>
+
+  <PartialWaves>
+    <elem>
+      <J>1</J>
+      <model>chipt</model>
+
+      <fixed_params>
+        <J>1</J>
+        <channels>
+          <elem>pi:pi</elem>
+        </channels>
+        <order>4</order>
+        <iso>1</iso>
+
+        <SUN>3</SUN>
+        <ren_scale>770.0</ren_scale>
+        <m_pi>139.57</m_pi>
+        <m_K>495.7</m_K>
+        <m_eta>547.45</m_eta>
+      </fixed_params>
+
+
+      <params>
+        <elem>
+          <name>L1</name>
+          <num>1</num>
+          <value>0.000314615433984048</value>
+          <error>1.80152638083035e-05</error>
+        </elem>
+
+        <elem>
+          <name>L2</name>
+          <num>2</num>
+          <value>-0.000961702385584511</value>
+          <error>3.16328445070478e-05</error>
+        </elem>
+
+        <elem>
+          <name>L3</name>
+          <num>3</num>
+          <value>-0.00509811306548895</value>
+          <error>3.39164837423397e-05</error>
+        </elem>
+
+        <elem>
+          <name>L4</name>
+          <num>4</num>
+          <value>-0.00240156947003712</value>
+          <error>0.000162301603689403</error>
+        </elem>
+
+        <elem>
+          <name>L5</name>
+          <num>5</num>
+          <value>0.00010997800007336</value>
+          <error>0.000203088066062287</error>
+        </elem>
+
+        <elem>
+          <name>L6</name>
+          <num>6</num>
+          <value>-6.21157769222322e-05</value>
+          <error>0.00393744096513206</error>
+        </elem>
+
+        <elem>
+          <name>L7</name>
+          <num>7</num>
+          <value>-0.00044</value>
+          <error>0</error>
+          <fixed>true</fixed>
+        </elem>
+
+        <elem>
+          <name>L8</name>
+          <num>8</num>
+          <value>0.000779999999923636</value>
+          <error>0.00438481336535953</error>
+        </elem>
+
+        <elem>
+          <name>fpi</name>
+          <num>0</num>
+          <value>92.4</value>
+
+          <error>0</error>
+          <fixed>true</fixed>
+        </elem>
+      </params>
+    </elem>
+  </PartialWaves>
+
+
+  <ParameterCorrelations>
+    <elem> 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 </elem>
+    <elem> 0.00  1.00 -0.61  0.63  0.82  0.80 -0.00  0.00  0.00 </elem>
+    <elem> 0.00 -0.61  1.00 -0.61 -0.80 -0.78  0.00  0.00 -0.00 </elem>
+    <elem> 0.00  0.63 -0.61  1.00  0.81  0.79 -0.00  0.00  0.00 </elem>
+    <elem> 0.00  0.82 -0.80  0.81  1.00  0.82 -0.00  0.00  0.00 </elem>
+    <elem> 0.00  0.80 -0.78  0.79  0.82  1.00 -0.00  0.00  0.00 </elem>
+    <elem> 0.00 -0.00  0.00 -0.00 -0.00 -0.00  1.00  0.00  0.00 </elem>
+    <elem> 0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00 </elem>
+    <elem> 0.00  0.00 -0.00  0.00  0.00  0.00  0.00  0.00  1.00 </elem>
+  </ParameterCorrelations>
+</MinimiseResult>

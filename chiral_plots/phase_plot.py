@@ -15,16 +15,18 @@ eps=0.00000000000000001
 
 
 fname0="plot_output.J1.data"
-fpidirs=["../SU3_op4/plots/","../SU3_op4_fpiChi/plots/","../SU2_op4/plots/","../SU2_op4_fpiChi/plots/","../SU3_op4/plots/chiral/","../SU3_op4_fpiChi/plots/chiral/","../SU2_op4/plots/chiral/","../SU2_op4_fpiChi/plots/chiral/"]
+fpidirs=["../SU2_op4_A/plots/","../SU3_op4_B/plots/","../SU2_op4_C/plots/","../SU3_op4_D/plots/","../SU2_op4_E/plots/","../SU3_op4_F/plots/","../SU2_op4_G/plots/","../SU3_op4_H/plots/","../SU2_op4_A/plots/chiral/","../SU3_op4_B/plots/chiral/","../SU2_op4_C/plots/chiral/","../SU3_op4_D/plots/chiral/","../SU2_op4_E/plots/chiral/","../SU3_op4_F/plots/chiral/","../SU2_op4_G/plots/chiral/","../SU3_op4_H/plots/chiral/"]
 
-ats=[0.000164429429878,0.00016442942987,0.00016442942987,0.00016442942987,1.0,1.0,1.0,1.0]
+ats=[0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,0.000162200109346 ,0.000162200109346 ,0.000162200109346 ,0.000162200109346 ,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]
 
-colors=['b','r','g','y','b','r','g','y']
+colors=['b','r','g','y','k','magenta','orange','cyan','b','r','g','y','k','magenta','orange','cyan']
+
+
 Emax=1000
 
 PSmax,PSmin=[],[]
 
-for i0 in range(len(ats)):
+for i0 in [8,10,12,14]:#range(len(ats)):
   print ""
   print "*************************************"
   print i0
@@ -93,7 +95,7 @@ for i0 in range(len(output)):
   if part_type==0.0:
     #if dy>2.0*y:
     #y=y+180
-    if dy <10: 
+    if dy <20: 
       plt.errorbar(x/ats[0],y,yerr=dy,xerr=dx,markersize=8,fmt='o',color='r',mfc='white',mec='r', elinewidth=2, capsize=6, mew=1.4)
                              
 

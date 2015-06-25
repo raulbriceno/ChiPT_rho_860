@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<FitSpectrum>
+  <!-- input to fit the finite volume spectrum with a set of model amps -->
+  <version>1</version>
+
+  <!-- somewhere need to specify the minimize options (minos, Simplex, Migrad ...) -->
+  <MinimiseOptions>
+    <minuit_type>MnMigrad</minuit_type>
+    <minuit_strategy>1</minuit_strategy>
+    <minuit_precision>1.0e-12</minuit_precision>
+    <minos>false</minos>
+    <verbose>true</verbose>
+    <max_pass>2</max_pass>
+  </MinimiseOptions>
+
+  <!-- the global list of desired coupled channels to consider -->
+  <Channels>
+    <elem>pi:pi</elem>
+    <!--<elem>Kaon:eta</elem> -->
+  </Channels>
+  
+  <!-- NOW SPECIFY THE PARTIAL WAVE AMPLITUDE PARAMETERISATIONS -->
+  <PartialWaves>
+
+    <elem>
+      <J>1</J>
+      <model>chipt</model>
+
+      <fixed_params>
+        <J>1</J>
+        <channels> 
+          <elem>pi:pi</elem>
+        </channels>	
+        <order>4</order>
+        <iso>1</iso>
+        <ren_scale>0.124894084196</ren_scale>
+        <SUN>3</SUN>
+        <m_eta>0.09299</m_eta>
+        <m_pi>0.03928</m_pi>
+        <m_K>0.08344</m_K>
+      </fixed_params>  
+      
+      <params>
+        <elem>
+          <name>fpi</name>
+          <start>0.0157334106065</start> 
+          <err>0.000001</err>
+          <limited>0.015 0.017</limited> 
+          <fixed>true</fixed>    
+        </elem>
+        <elem>
+          <name>L1</name>
+          <start>0.000313071262592023</start>      
+          <err>0.000001</err>
+          <limited>0.00010 0.00060</limited> 
+          <fixed>false</fixed>    
+        </elem>
+        <elem>
+          <name>L2</name>
+          <start>-0.000964207651122172</start>  
+          <err>0.000001</err>
+          <limited>-0.003 0.004</limited> 
+          <fixed>false</fixed>        
+        </elem>
+        <elem>
+          <name>L3</name>
+          <start>-0.00509797069640719</start>
+          <err>0.000001</err>
+          <limited>-0.008 0.001</limited> 
+          <fixed>false</fixed>    
+        </elem>
+        <elem>
+          <name>L4</name>
+          <start>-0.00187221482780596</start>   
+          <err>0.000001</err>
+          <limited>-0.008 -0.0005</limited> 
+          <fixed>false</fixed>      
+        </elem>
+        <elem>
+          <name>L5</name>
+          <start>0.000770209765917473</start>   
+          <err>0.00001</err>
+          <limited>-0.002 0.004</limited> 
+          <fixed>false</fixed>       
+        </elem>
+        <elem>
+          <name>L6</name>
+          <start>-7.00000029534675e-05</start>
+          <err>0.00001</err>
+          <limited>-0.002 0.004</limited> 
+          <fixed>false</fixed>          
+        </elem>
+        <elem>
+          <name>L7</name>
+          <start>-0.00044</start>
+          <err>0.1</err>
+          <limited>-0.002 0.004</limited> 
+          <fixed>true</fixed>    
+        </elem>
+        <elem>
+          <name>L8</name>
+          <start>0.000779999999975855</start>
+          <err>0.1</err>
+          <limited>-0.002 0.004</limited> 
+          <fixed>false</fixed>         
+        </elem>
+      </params>
+    </elem>
+
+
+  </PartialWaves>
+</FitSpectrum>
+

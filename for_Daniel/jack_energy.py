@@ -167,6 +167,20 @@ for i0 in range(len(states)):
   dname,irrep,L_label,jack_energy_file=states[i0].split()
   Ei=loadjack(jack_energy_file)
   
+  d=array([float(dname[0]),float(dname[1]),float(dname[2])])
+  #print ""
+  #print "Loas",Loas
+  P=d*2.0*pi/(Loas*aniso)
+          
+  PP=dot(P,P)
+
+  #print dname,d
+  #print "before",mean(Ei), std(Ei),dot(P,P)
+  #print mean(sqrt(pow(Ei,2.0)-PP))
+  Ei=sqrt(pow(Ei,2.0)-PP)
+
+
+
   print dname,irrep,L_label,mean(Ei),std(Ei)
   output.append(Ei)
 

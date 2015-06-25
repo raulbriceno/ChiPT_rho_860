@@ -147,8 +147,9 @@ def fLuscher_pcotdelta(Eout,part_type,irrep,dname,Loas):
 
   delta=arctan(1.0/cotd)*180.0/pi
   
-  if mean(delta)<0 and part_type=="pipi":
-    delta=delta+180.0
+  for i0 in range(len(delta)):
+      if mean(delta[i0])<0 and part_type=="pipi":
+        delta[i0]=delta[i0]+180.0
   
   return delta
  

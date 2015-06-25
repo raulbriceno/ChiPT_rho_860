@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<FitSpectrum>
+  <!-- input to fit the finite volume spectrum with a set of model amps -->
+  <version>1</version>
+
+  <!-- somewhere need to specify the minimize options (minos, Simplex, Migrad ...) -->
+  <MinimiseOptions>
+    <minuit_type>MnMigrad</minuit_type>
+    <minuit_strategy>1</minuit_strategy>
+    <minuit_precision>1.0e-12</minuit_precision>
+    <minos>false</minos>
+    <verbose>true</verbose>
+  </MinimiseOptions>
+
+  <!-- the global list of desired coupled channels to consider -->
+  <Channels>
+    <elem>pi:pi</elem>
+  </Channels>
+  
+  <!-- NOW SPECIFY THE PARTIAL WAVE AMPLITUDE PARAMETERISATIONS -->
+  <PartialWaves>
+
+    <!-- tuned to fit 840 rho data -->
+    <elem>
+      <J>1</J>
+      <model>chipt</model>
+
+      <fixed_params>
+        <J>1</J>
+        <channels> 
+          <elem>pi:pi</elem>
+        </channels>	
+        <order>4</order>
+        <iso>1</iso>
+        <ren_scale>0.127640152078</ren_scale>
+        <SUN>2</SUN>
+        <m_eta>0.09299</m_eta>
+        <m_pi>0.03928</m_pi>
+        <m_K>0.08344</m_K> 
+      </fixed_params>  
+      
+      <params>
+        <!-- O(p^2) - should really determine this one -->
+        <elem>
+          <name>fpi</name>
+          <start>0.0154162781081</start> 
+          <err>0.000001</err>
+          <limited>0.014 0.025</limited> 
+          <fixed>true</fixed>    
+        </elem>
+
+        <!-- O(p^4) parameters -->
+        <elem>
+          <name>L1</name>
+          <start>-0.00621854529941939</start>      
+          <err>0.00018264</err>
+          <limited>-0.03 0.00013485</limited> 
+          <fixed>false</fixed>    
+        </elem>
+        <elem>
+          <name>L2</name>
+          <start>0.00198843681277034</start>  
+          <err>0.0003658</err>
+          <limited>0.0000619 0.0062619</limited> 
+          <fixed>false</fixed>        
+        </elem>
+        <elem>
+          <name>L3</name>
+          <start>0.0483661821033224</start>
+          <err>0.13034</err>
+          <limited>-0.05 0.1</limited> 
+          <fixed>false</fixed>    
+        </elem>
+        <elem>
+          <name>L4</name>
+          <start>-0.0129999999178646</start>   
+          <err>0.0017459</err>
+          <limited>-0.03  -0.0052999999917864</limited> 
+          <fixed>false</fixed>      
+        </elem>
+
+
+        <!-- O(p^6) parameters, enable/disable with "order" tag above. -->
+        <annotation>
+          <elem>
+            <name>R1</name>
+            <start>-6.e-5</start>
+            <err>0.01</err>
+          </elem>
+
+          <elem>
+            <name>R2</name>
+            <start>1.5e-04</start>
+            <err>0.01</err>
+            <fixed>true</fixed>
+          </elem>
+
+          <elem>
+            <name>R3</name>
+            <start>-1.4e-4</start>
+            <err>0.01</err>
+            <fixed>true</fixed>
+          </elem>
+
+          <elem>
+            <name>R4</name>
+            <start>1.4e-4</start>
+            <err>0.01</err>
+            <fixed>true</fixed>
+          </elem>
+
+          <elem>
+            <name>R5</name>
+            <start>2.4e-4</start>
+            <err>0.01</err>
+            <fixed>true</fixed>
+          </elem>
+
+          <elem>
+            <name>R6</name>
+            <start>-6.e-5</start>
+            <err>0.01</err>
+            <fixed>true</fixed>
+          </elem>
+        </annotation>
+        
+      </params>
+    </elem>
+    
+  </PartialWaves>
+</FitSpectrum>
+
