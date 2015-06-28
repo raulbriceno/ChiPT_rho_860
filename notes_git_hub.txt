@@ -1,0 +1,38 @@
+#####################################################
+to get a key-gen
+ssh-keygen 
+cat ~/.ssh/id_rsa.pub 
+
+then go to github and add this key so it can see your computer 
+
+#####################################################
+
+git clone git@github.com:JeffersonLab/pi_to_pipi_long_paper.git 
+
+copy files into the directory you want
+cp -r long_paper/* pi_to_pipi_long_paper/
+cd pi_to_pipi_long_paper/
+git add bibi.bib 
+git add final_figures/ 
+git add rho_to_pi_long_paper.tex 
+git add rho_to_pi_long_paper.pdf 
+git commit -m"fourth commit"
+git push 
+
+git commit -m"initial commit" 
+git push 
+
+######################################################
+
+for a second commit do:
+git status
+git add rho_to_pi_long_paper.tex 
+git add rho_to_pi_long_paperNotes.bib 
+git add bibi.bib 
+git final_figures/
+git add final_figures/
+
+git status
+git commit -m"second commit"
+git push 
+

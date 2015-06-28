@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+
+
+<MinimiseResult>
+  <version>1</version>
+
+  <MinimiseOptions>
+    <minuit_type>MnMigrad</minuit_type>
+    <minuit_strategy>1</minuit_strategy>
+    <minuit_strategy>1e-12</minuit_strategy>
+  </MinimiseOptions>
+
+  <Channels>
+    <elem>pi:pi</elem>
+  </Channels>
+
+  <Minimum>
+    <chisq>26.8381952259539</chisq>
+    <n_data>24</n_data>
+    <n_free_params>4</n_free_params>
+    <n_dof>20</n_dof>
+    <n_fcn_calls>83</n_fcn_calls>
+  </Minimum>
+
+  <PartialWaves>
+    <elem>
+      <J>1</J>
+      <model>chipt</model>
+
+<fixed_params>
+      <J>1</J>
+      <channels>
+        <elem>pi:pi</elem>
+      </channels>
+      <order>4</order>
+      <iso>1</iso>
+      <ren_scale>0.127640152078</ren_scale>
+      <SUN>2</SUN>
+      <m_eta>0.09299</m_eta>
+      <m_pi>0.03928</m_pi>
+      <m_K>0.08344</m_K>
+    </fixed_params>
+
+
+      <params>
+        <elem>
+          <name>L1</name>
+          <num>1</num>
+          <value>-0.00628399441216021</value>
+          <error>9.32512278998994e-05</error>
+        </elem>
+
+        <elem>
+          <name>L2</name>
+          <num>2</num>
+          <value>0.00212773879742686</value>
+          <error>0.00020825866528138</error>
+        </elem>
+
+        <elem>
+          <name>L3</name>
+          <num>3</num>
+          <value>0.0483661821018974</value>
+          <error>0.120058870092028</error>
+        </elem>
+
+        <elem>
+          <name>L4</name>
+          <num>4</num>
+          <value>-0.00718372451245679</value>
+          <error>0.00395599770368607</error>
+        </elem>
+
+        <elem>
+          <name>fpi</name>
+          <num>0</num>
+          <value>0.0154162781081</value>
+          <error>0</error>
+          <fixed>true</fixed>
+        </elem>
+</params>
+    </elem>
+  </PartialWaves>
+
+
+  <ParameterCorrelations>
+    <elem> 1.00  0.00  0.00  0.00  0.00 </elem>
+    <elem> 0.00  1.00 -0.82 -0.00  0.93 </elem>
+    <elem> 0.00 -0.82  1.00  0.00 -0.94 </elem>
+    <elem> 0.00 -0.00  0.00  1.00 -0.00 </elem>
+    <elem> 0.00  0.93 -0.94 -0.00  1.00 </elem>
+  </ParameterCorrelations>
+</MinimiseResult>

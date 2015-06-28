@@ -1,0 +1,36 @@
+eta[J=0]: m= 547.45 +/- 0
+kaon[J=0]: m= 495.7 +/- 0
+kbar[J=0]: m= 495.7 +/- 0
+pi[J=0]: m= 139.57 +/- 0
+loading the amplitudes
+  read the channels
+  read the parameter covariance
+Initialised ChiPT parameters: J=1 p^4 SU(3) I=1
+J=1 par#1 -> L1 = 0.000313045 +/- 2.57349e-05
+J=1 par#2 -> L2 = -0.000964273 +/- 0.000111963
+J=1 par#3 -> L3 = -0.00509799 +/- 5.16279e-05
+J=1 par#4 -> L4 = -0.000950198 +/- 0.000608246
+J=1 par#5 -> L5 = 0.0011901 +/- 0.00121814
+J=1 par#6 -> L6 = -6.97452e-05 +/- 0.00371718
+J=1 par#7 -> L7 = -0.00044 +/- 0
+J=1 par#8 -> L8 = 0.00078 +/- 0.00432651
+J=1 par#0 -> fpi = 0.0166761 +/- 0
+J=1 par_corr = 
+[[1 -0.34 -0.37 0.14 0.16 -0 0 -0 0]
+ [-0.34 1 -0.34 -0.31 -0.33 -0 0 0 0]
+ [-0.37 -0.34 1 0.14 0.16 0 0 -0 0]
+ [0.14 -0.31 0.14 1 -0.78 0 0 -0 0]
+ [0.16 -0.33 0.16 -0.78 1 -0 0 0 0]
+ [-0 -0 0 0 -0 1 0 -0 0]
+ [0 0 0 0 0 0 1 0 0]
+ [-0 0 -0 -0 0 -0 0 1 0]
+ [0 0 0 0 0 0 0 0 1]]
+*** Warning in ../../../../itpp/base/algebra/cholesky.cpp on line 115:
+cholesky factorization didn't succeed
+searching on sheet pi:pi[+]  ... 
+searching on sheet pi:pi[-]  ... 
+
+
+
+
+

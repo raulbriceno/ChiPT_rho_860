@@ -68,7 +68,7 @@
         <elem>
           <name>L3</name>
           <start>0.0921486129992298</start>
-          <err>0.13034</err>
+          <err>0.00240284672732575</err>
           <limited>-0.05 0.1</limited>
           <fixed>false</fixed>
         </elem>

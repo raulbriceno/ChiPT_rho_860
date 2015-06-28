@@ -1,0 +1,35 @@
+eta[J=0]: m= 0.09299 +/- 0.00056
+kaon[J=0]: m= 0.08344 +/- 7e-05
+kbar[J=0]: m= 0.08344 +/- 7e-05
+pi[J=0]: m= 0.03928 +/- 0.00018
+loading the amplitudes
+  read the channels
+  read the parameter covariance
+Initialised ChiPT parameters: J=1 p^4 SU(2) I=1
+J=1 par#1 -> L1 = -0.00628928 +/- 0.000587459
+J=1 par#2 -> L2 = 0.00211718 +/- 0.000867915
+J=1 par#3 -> L3 = 0.0483662 +/- 0
+J=1 par#4 -> L4 = -0.017618 +/- 0.00239316
+J=1 par#0 -> fpi = 0.0155088 +/- 0
+J=1 par_corr = 
+[[1 0.96 0 0.81 0]
+ [0.96 1 0 0.61 0]
+ [0 0 1 0 0]
+ [0.81 0.61 0 1 0]
+ [0 0 0 0 1]]
+making plots ... 
+***********************************************
+*** plot_single_channel_elastic_phase_shift ***
+***********************************************
+writing to plot_output.J1.data
+making correlated parameter ensembles
+*** Warning in ../../../../itpp/base/algebra/cholesky.cpp on line 115:
+cholesky factorization didn't succeed
+made correlated parameter ensembles
+plotting from Emin = 0.077 to Emax = 0.23 with 1200 points
+elastic scattering channel is pi:pi|pi:pi
+scattering amplitude is chipt
+mod_int = 0
+***********************************************
+***********************************************
+... finished making plots

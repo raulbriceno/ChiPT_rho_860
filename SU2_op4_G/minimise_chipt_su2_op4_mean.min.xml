@@ -15,11 +15,11 @@
   </Channels>
 
   <Minimum>
-    <chisq>26.8381997211632</chisq>
+    <chisq>26.8381997211623</chisq>
     <n_data>24</n_data>
     <n_free_params>4</n_free_params>
     <n_dof>20</n_dof>
-    <n_fcn_calls>86</n_fcn_calls>
+    <n_fcn_calls>87</n_fcn_calls>
   </Minimum>
 
   <PartialWaves>
@@ -46,29 +46,29 @@
         <elem>
           <name>L1</name>
           <num>1</num>
-          <value>-0.00613649339983557</value>
-          <error>0.000587401233092113</error>
+          <value>-0.00613649339985151</value>
+          <error>0.000587401238910162</error>
         </elem>
 
         <elem>
           <name>L2</name>
           <num>2</num>
-          <value>0.0024218815992512</value>
-          <error>0.000868278821125998</error>
+          <value>0.00242188159923989</value>
+          <error>0.000868278790356362</error>
         </elem>
 
         <elem>
           <name>L3</name>
           <num>3</num>
-          <value>0.0921486129990049</value>
-          <error>0.136556823306633</error>
+          <value>0.0921486129991079</value>
+          <error>0.07892459427272</error>
         </elem>
 
         <elem>
           <name>L4</name>
           <num>4</num>
-          <value>-0.000429857044422527</value>
-          <error>0.00240284672732575</error>
+          <value>-0.000429857044542292</value>
+          <error>0.00240284689438607</error>
         </elem>
 
         <elem>
