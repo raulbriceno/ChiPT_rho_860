@@ -15,9 +15,9 @@ eps=0.00000000000000001
 
 
 fname0="plot_output.J1.data"
-fpidirs=["../SU2_op4_A/plots/","../SU3_op4_B/plots/","../SU2_op4_C/plots/","../SU3_op4_D/plots/","../SU2_op4_E/plots/","../SU3_op4_F/plots/","../SU2_op4_G/plots/","../SU3_op4_H/plots/","../SU2_op4_A/plots/chiral/","../SU3_op4_B/plots/chiral/","../SU2_op4_C/plots/chiral/","../SU3_op4_D/plots/chiral/","../SU2_op4_E/plots/chiral/","../SU3_op4_F/plots/chiral/","../SU2_op4_G/plots/chiral/","../SU3_op4_H/plots/chiral/"]
+fpidirs=["../SU2_op4_A_Robert/plots/","../SU3_op4_B_Robert/plots/","../SU2_op4_C/plots/","../SU3_op4_D/plots/","../SU2_op4_E/plots/","../SU3_op4_F/plots/","../SU2_op4_G/plots/","../SU3_op4_H/plots/","../SU2_op4_A_Robert/plots/chiral/","../SU3_op4_B_Robert/plots/chiral/","../SU2_op4_C/plots/chiral/","../SU3_op4_D/plots/chiral/","../SU2_op4_E/plots/chiral/","../SU3_op4_F/plots/chiral/","../SU2_op4_G/plots/chiral/","../SU3_op4_H/plots/chiral/"]
 
-ats=[0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]
+ats=[0.000166761338157,0.000166761338157,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]
 
 colors=['b','r','g','y','k','magenta','orange','cyan','b','r','g','y','k','magenta','orange','cyan']
 
@@ -26,7 +26,7 @@ Emax=1000
 
 PSmax,PSmin=[],[]
 
-for i0 in [2,4,6]:#range(len(ats)):
+for i0 in [0,1,8,9]:#range(len(ats)):
   print ""
   print "*************************************"
   print i0

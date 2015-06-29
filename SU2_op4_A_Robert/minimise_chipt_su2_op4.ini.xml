@@ -16,7 +16,7 @@
   <Channels>
     <elem>pi:pi</elem>
   </Channels>
-  
+
   <!-- NOW SPECIFY THE PARTIAL WAVE AMPLITUDE PARAMETERISATIONS -->
   <PartialWaves>
 
@@ -33,33 +33,37 @@
         <order>4</order>
         <iso>1</iso>
         <ren_scale>0.128406230381</ren_scale>
-        <SUN>2</SUN>
         <m_eta>0.09299</m_eta>
         <m_pi>0.03928</m_pi>
-        <m_K>0.08344</m_K> 
+        <!--m_pi0>0.0233465873419</m_pi0-->
+        <m_pi0>0.0233465873419</m_pi0>
+        <m_K>0.08344</m_K>
+        <SUN>2</SUN>
       </fixed_params>  
-      
+
       <params>
         <!-- O(p^2) - should really determine this one -->
+
         <elem>
           <name>fpi</name>
-          <start>0.0155088044486</start> 
+          <start>0.0155421567162</start> 
           <err>0.000001</err>
           <limited>0.014 0.025</limited> 
           <fixed>true</fixed>    
         </elem>
 
+
         <!-- O(p^4) parameters -->
         <elem>
           <name>L1</name>
-          <start>-0.00621854529941939</start>      
+          <start>-0.00628567211832239</start>      
           <err>0.00018264</err>
           <limited>-0.03 0.0013485</limited> 
           <fixed>false</fixed>    
         </elem>
         <elem>
           <name>L2</name>
-          <start>0.00198843681277034</start>  
+          <start>0.00212354287726839</start>  
           <err>0.0003658</err>
           <limited>0.0000619 0.0062619</limited> 
           <fixed>false</fixed>        
@@ -73,9 +77,9 @@
         </elem>
         <elem>
           <name>L4</name>
-          <start>-0.0129999999178646</start>   
-          <err>0.0017459</err>
-          <limited>-0.03  -0.0052999999917864</limited> 
+          <start>-0.0250458021855503</start>   
+          <err>0.0024459</err>
+          <limited>-0.0376 -0.0176</limited> 
           <fixed>false</fixed>      
         </elem>
 
@@ -123,10 +127,10 @@
             <fixed>true</fixed>
           </elem>
         </annotation>
-        
+
       </params>
     </elem>
-    
+
   </PartialWaves>
 </FitSpectrum>
 

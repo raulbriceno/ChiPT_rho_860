@@ -2,17 +2,17 @@
 <PoleFind>
   <version>1</version>
 
-  <s_re_min> 250000.0 </s_re_min>
-  <s_re_max> 1000000.0 </s_re_max>
+  <s_re_min> 462900.0 </s_re_min>
+  <s_re_max> 662900.0 </s_re_max>
 
-  <s_im_min> -5000.0 </s_im_min>
-  <s_im_max> 1600.0 </s_im_max>  
+  <s_im_min> -25625.0 </s_im_min>
+  <s_im_max> 25625.0 </s_im_max>  
 
   <n_starts> 50 </n_starts>
 
   <guesses>
-    <elem>592900.0 602900.0 </elem>
-    <elem>-10000.0 -15000.0 </elem>	 	
+    <elem>532900 562900 </elem>
+    <elem>-15625 -12625 </elem>	 	
   </guesses>
 
 </PoleFind>

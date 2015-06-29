@@ -37,13 +37,15 @@
         <SUN>3</SUN>
         <m_eta>0.09299</m_eta>
         <m_pi>0.03928</m_pi>
+        <m_pi0>0.02334658734</m_pi0>
         <m_K>0.08344</m_K>
+        <m_K0>0.0826635953242</m_K0>
       </fixed_params>  
       
       <params>
         <elem>
           <name>fpi</name>
-          <start>0.0155088044486</start> 
+          <start>0.0155421567162</start> 
           <err>0.000001</err>
           <limited>0.015 0.017</limited> 
           <fixed>true</fixed>    
@@ -71,14 +73,14 @@
         </elem>
         <elem>
           <name>L4</name>
-          <start>-0.00187221482780596</start>   
+          <start>-0.00180235276136524</start>   
           <err>0.000001</err>
-          <limited>-0.008 -0.0005</limited> 
+          <limited>-0.01 0.0005</limited> 
           <fixed>false</fixed>      
         </elem>
         <elem>
           <name>L5</name>
-          <start>0.000770209765917473</start>   
+          <start>0.00173164104864824</start>   
           <err>0.00001</err>
           <limited>-0.002 0.004</limited> 
           <fixed>false</fixed>       

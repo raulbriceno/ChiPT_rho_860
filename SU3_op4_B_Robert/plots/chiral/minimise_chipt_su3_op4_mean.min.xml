@@ -15,11 +15,11 @@
   </Channels>
 
   <Minimum>
-    <chisq>25.5610532077462</chisq>
+    <chisq>25.5611159228579</chisq>
     <n_data>24</n_data>
     <n_free_params>7</n_free_params>
     <n_dof>17</n_dof>
-    <n_fcn_calls>178</n_fcn_calls>
+    <n_fcn_calls>117</n_fcn_calls>
   </Minimum>
 
   <PartialWaves>
@@ -34,12 +34,14 @@
         </channels>
         <order>4</order>
         <iso>1</iso>
+
         <SUN>3</SUN>
         <ren_scale>770.0</ren_scale>
         <m_pi>139.57</m_pi>
         <m_K>495.7</m_K>
+        <m_pi0>139.57</m_pi0>
+        <m_K0>495.7</m_K0>
         <m_eta>547.45</m_eta>
-
       </fixed_params>
 
 
@@ -47,43 +49,43 @@
         <elem>
           <name>L1</name>
           <num>1</num>
-          <value>0.000313056193659914</value>
-          <error>7.63087702272707e-05</error>
+          <value>0.000313205104694244</value>
+          <error>8.52275965657572e-06</error>
         </elem>
 
         <elem>
           <name>L2</name>
           <num>2</num>
-          <value>-0.000964366865217424</value>
-          <error>0.000124975171672266</error>
+          <value>-0.000964475103913461</value>
+          <error>1.70525408296255e-05</error>
         </elem>
 
         <elem>
           <name>L3</name>
           <num>3</num>
-          <value>-0.00509791497754173</value>
-          <error>0.000155277014013674</error>
+          <value>-0.00509770312677643</value>
+          <error>1.70485851691605e-05</error>
         </elem>
 
         <elem>
           <name>L4</name>
           <num>4</num>
-          <value>-0.00208388676969258</value>
-          <error>0.000277438008588844</error>
+          <value>-0.00180350372534689</value>
+          <error>7.14287351299952e-05</error>
         </elem>
 
         <elem>
           <name>L5</name>
           <num>5</num>
-          <value>0.000414697543789375</value>
-          <error>0.000552398869179851</error>
+          <value>0.00172722581815668</value>
+          <error>0.00027322327939091</error>
         </elem>
 
         <elem>
           <name>L6</name>
           <num>6</num>
-          <value>-7.00000029108083e-05</value>
-          <error>0.0036735515998037</error>
+          <value>-7.01182571191119e-05</value>
+          <error>0.00503035578521578</error>
         </elem>
 
         <elem>
@@ -97,14 +99,14 @@
         <elem>
           <name>L8</name>
           <num>8</num>
-          <value>0.00372322453611337</value>
-          <error>0.00533042396694475</error>
+          <value>0.000779999999975928</value>
+          <error>0.00394099712710913</error>
         </elem>
 
         <elem>
           <name>fpi</name>
           <num>0</num>
-          <value>92.4</value>
+          <value>93.2</value>
           <error>0</error>
           <fixed>true</fixed>
         </elem>
@@ -115,13 +117,13 @@
 
   <ParameterCorrelations>
     <elem> 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 </elem>
-    <elem> 0.00  1.00  0.96  0.96  0.94  0.94  0.00  0.00 -0.00 </elem>
-    <elem> 0.00  0.96  1.00  0.96  0.89  0.89  0.00  0.00 -0.00 </elem>
-    <elem> 0.00  0.96  0.96  1.00  0.94  0.94  0.00  0.00 -0.00 </elem>
-    <elem> 0.00  0.94  0.89  0.94  1.00  0.86  0.00  0.00 -0.00 </elem>
-    <elem> 0.00  0.94  0.89  0.94  0.86  1.00  0.00  0.00 -0.00 </elem>
-    <elem> 0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00 -0.00 </elem>
+    <elem> 0.00  1.00  0.20 -0.20  0.18  0.18  0.00  0.00  0.00 </elem>
+    <elem> 0.00  0.20  1.00  0.20 -0.18 -0.18  0.00  0.00  0.00 </elem>
+    <elem> 0.00 -0.20  0.20  1.00  0.18  0.18 -0.00  0.00 -0.00 </elem>
+    <elem> 0.00  0.18 -0.18  0.18  1.00 -0.21 -0.00  0.00 -0.00 </elem>
+    <elem> 0.00  0.18 -0.18  0.18 -0.21  1.00  0.00  0.00  0.00 </elem>
+    <elem> 0.00  0.00  0.00 -0.00 -0.00  0.00  1.00  0.00  1.00 </elem>
     <elem> 0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00 </elem>
-    <elem> 0.00 -0.00 -0.00 -0.00 -0.00 -0.00 -0.00  0.00  1.00 </elem>
+    <elem> 0.00  0.00  0.00 -0.00 -0.00  0.00  1.00  0.00  1.00 </elem>
   </ParameterCorrelations>
 </MinimiseResult>
