@@ -15,11 +15,11 @@
   </Channels>
 
   <Minimum>
-    <chisq>26.8381916889509</chisq>
+    <chisq>26.8381945945375</chisq>
     <n_data>24</n_data>
-    <n_free_params>4</n_free_params>
-    <n_dof>20</n_dof>
-    <n_fcn_calls>131</n_fcn_calls>
+    <n_free_params>3</n_free_params>
+    <n_dof>21</n_dof>
+    <n_fcn_calls>59</n_fcn_calls>
   </Minimum>
 
   <PartialWaves>
@@ -34,11 +34,13 @@
       </channels>
       <order>4</order>
       <iso>1</iso>
-      <ren_scale>0.124894084196</ren_scale>
-      <SUN>2</SUN>
+      <ren_scale>0.12840505175</ren_scale>
       <m_eta>0.09299</m_eta>
       <m_pi>0.03928</m_pi>
+      <!--m_pi0>0.0233465873419</m_pi0-->
+      <m_pi0>0.0233463730455</m_pi0>
       <m_K>0.08344</m_K>
+      <SUN>2</SUN>
     </fixed_params>
 
 
@@ -46,35 +48,36 @@
         <elem>
           <name>L1</name>
           <num>1</num>
-          <value>-0.00628487502507418</value>
-          <error>9.02499876460055e-05</error>
+          <value>-0.00628590772782088</value>
+          <error>0.000586480716614386</error>
         </elem>
 
         <elem>
           <name>L2</name>
           <num>2</num>
-          <value>0.00212664241868419</value>
-          <error>0.000215808985946802</error>
+          <value>0.00212372439683268</value>
+          <error>0.000876180783735997</error>
         </elem>
 
         <elem>
           <name>L3</name>
           <num>3</num>
-          <value>-0.0223445245825071</value>
-          <error>0.0837473766360489</error>
+          <value>0.0483661821033224</value>
+          <error>0</error>
+          <fixed>true</fixed>
         </elem>
 
         <elem>
           <name>L4</name>
           <num>4</num>
-          <value>-0.006918310788833</value>
-          <error>0.00210533039557589</error>
+          <value>-0.0280459572300869</value>
+          <error>0.00623336912640712</error>
         </elem>
 
         <elem>
           <name>fpi</name>
           <num>0</num>
-          <value>0.0150846101692</value>
+          <value>0.015542014056</value>
           <error>0</error>
           <fixed>true</fixed>
         </elem>
@@ -85,9 +88,9 @@
 
   <ParameterCorrelations>
     <elem> 1.00  0.00  0.00  0.00  0.00 </elem>
-    <elem> 0.00  1.00 -0.82  0.00  0.92 </elem>
-    <elem> 0.00 -0.82  1.00 -0.00 -0.94 </elem>
-    <elem> 0.00  0.00 -0.00  1.00  0.00 </elem>
-    <elem> 0.00  0.92 -0.94  0.00  1.00 </elem>
+    <elem> 0.00  1.00  0.96  0.00  0.79 </elem>
+    <elem> 0.00  0.96  1.00  0.00  0.59 </elem>
+    <elem> 0.00  0.00  0.00  1.00  0.00 </elem>
+    <elem> 0.00  0.79  0.59  0.00  1.00 </elem>
   </ParameterCorrelations>
 </MinimiseResult>

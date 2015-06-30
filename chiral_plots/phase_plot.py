@@ -19,6 +19,10 @@ fpidirs=["../SU2_op4_A_Robert/plots/","../SU3_op4_B_Robert/plots/","../SU2_op4_C
 
 ats=[0.000166761338157,0.000166761338157,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,0.00016576643127,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]
 
+fpidirs=["../SU2_op4_A_Robert/plots/","../SU3_op4_B_Robert/plots/","../SU2_op4_C/plots/","../SU2_op4_E/plots/","../SU2_op4_G/plots/","../SU2_op4_A_Robert/plots/chiral/","../SU3_op4_B_Robert/plots/chiral/","../SU2_op4_C/plots/chiral/","../SU2_op4_E/plots/chiral/","../SU2_op4_G/plots/chiral/"]
+
+ats=[0.000166761338157,0.000166761338157,0.000166761338157,0.000166761338157,0.000166761338157,1.0,1.0,1.0,1.0,1.0]
+
 colors=['b','r','g','y','k','magenta','orange','cyan','b','r','g','y','k','magenta','orange','cyan']
 
 
@@ -26,7 +30,7 @@ Emax=1000
 
 PSmax,PSmin=[],[]
 
-for i0 in [0,1,8,9]:#range(len(ats)):
+for i0 in range(len(ats)):
   print ""
   print "*************************************"
   print i0
@@ -62,7 +66,7 @@ for i0 in [0,1,8,9]:#range(len(ats)):
   if Emax > max(Ecm):
     Emax=max(Ecm)
   Emin=min(Ecm)
-  if i0 in [0,1,2,3,4,5,6,7]:
+  if i0 in [0,1,2,3,4]:
     plt.subplot(211)
   else:
     plt.subplot(212)
