@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<MassesXi>
+  <!-- scattering hadron masses etc... -->
+  <version>1</version>
+
+  <Masses>
+    <elem>
+      <name>pi</name>
+      <spin>0</spin>
+      <mass>0.03946</mass>
+      <mass_err>0.00018</mass_err>
+    </elem>
+
+    <elem>
+      <name>kaon</name>
+      <spin>0</spin>
+      <mass>0.08344</mass>
+      <mass_err>0.00007</mass_err>
+    </elem>
+
+    <elem>
+      <name>kbar</name>
+      <spin>0</spin>
+      <mass>0.08344</mass>
+      <mass_err>0.00007</mass_err>
+    </elem>
+
+    <elem>
+      <name>eta</name>
+      <spin>0</spin>
+      <mass>0.09299</mass>
+      <mass_err>0.00056</mass_err>
+    </elem>
+
+  </Masses>
+  
+  <Xi>
+    <value>3.4534</value>
+    <error>0.0061</error>    
+  </Xi>
+  
+</MassesXi>
