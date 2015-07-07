@@ -15,11 +15,11 @@
   </Channels>
 
   <Minimum>
-    <chisq>25.5611159228579</chisq>
-    <n_data>24</n_data>
+    <chisq>23.9945217384077</chisq>
+    <n_data>22</n_data>
     <n_free_params>7</n_free_params>
-    <n_dof>17</n_dof>
-    <n_fcn_calls>117</n_fcn_calls>
+    <n_dof>15</n_dof>
+    <n_fcn_calls>145</n_fcn_calls>
   </Minimum>
 
   <PartialWaves>
@@ -48,43 +48,43 @@
         <elem>
           <name>L1</name>
           <num>1</num>
-          <value>0.000313205104694244</value>
-          <error>8.52275965657572e-06</error>
+          <value>0.000313770473942505</value>
+          <error>0.000103667707323689</error>
         </elem>
 
         <elem>
           <name>L2</name>
           <num>2</num>
-          <value>-0.000964475103913461</value>
-          <error>1.70525408296255e-05</error>
+          <value>-0.000965606154504983</value>
+          <error>0.000126118623581617</error>
         </elem>
 
         <elem>
           <name>L3</name>
           <num>3</num>
-          <value>-0.00509770312677643</value>
-          <error>1.70485851691605e-05</error>
+          <value>-0.00509657224724004</value>
+          <error>0.000213672946603904</error>
         </elem>
 
         <elem>
           <name>L4</name>
           <num>4</num>
-          <value>-0.00180350372534689</value>
-          <error>7.14287351299952e-05</error>
+          <value>-0.0017919221361794</value>
+          <error>0.000481624840019925</error>
         </elem>
 
         <elem>
           <name>L5</name>
           <num>5</num>
-          <value>0.00172722581815668</value>
-          <error>0.00027322327939091</error>
+          <value>0.00177156291900133</value>
+          <error>0.00172335434814655</error>
         </elem>
 
         <elem>
           <name>L6</name>
           <num>6</num>
-          <value>-7.01182571191119e-05</value>
-          <error>0.00503035578521578</error>
+          <value>-6.73690158975292e-05</value>
+          <error>0.00424211913507735</error>
         </elem>
 
         <elem>
@@ -98,8 +98,8 @@
         <elem>
           <name>L8</name>
           <num>8</num>
-          <value>0.000779999999975928</value>
-          <error>0.00394099712710913</error>
+          <value>0.000779999999975912</value>
+          <error>0.00417755008897556</error>
         </elem>
 
         <elem>
@@ -116,13 +116,13 @@
 
   <ParameterCorrelations>
     <elem> 1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 </elem>
-    <elem> 0.00  1.00  0.20 -0.20  0.18  0.18  0.00  0.00  0.00 </elem>
-    <elem> 0.00  0.20  1.00  0.20 -0.18 -0.18  0.00  0.00  0.00 </elem>
-    <elem> 0.00 -0.20  0.20  1.00  0.18  0.18 -0.00  0.00 -0.00 </elem>
-    <elem> 0.00  0.18 -0.18  0.18  1.00 -0.21 -0.00  0.00 -0.00 </elem>
-    <elem> 0.00  0.18 -0.18  0.18 -0.21  1.00  0.00  0.00  0.00 </elem>
-    <elem> 0.00  0.00  0.00 -0.00 -0.00  0.00  1.00  0.00  1.00 </elem>
+    <elem> 0.00  1.00  0.19 -0.86  0.02  0.02  0.00  0.00 -0.00 </elem>
+    <elem> 0.00  0.19  1.00  0.19 -0.19 -0.19  0.00  0.00 -0.00 </elem>
+    <elem> 0.00 -0.86  0.19  1.00  0.02  0.02 -0.00  0.00  0.00 </elem>
+    <elem> 0.00  0.02 -0.19  0.02  1.00 -0.70  0.00  0.00  0.00 </elem>
+    <elem> 0.00  0.02 -0.19  0.02 -0.70  1.00 -0.00  0.00 -0.00 </elem>
+    <elem> 0.00  0.00  0.00 -0.00  0.00 -0.00  1.00  0.00 -0.60 </elem>
     <elem> 0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00 </elem>
-    <elem> 0.00  0.00  0.00 -0.00 -0.00  0.00  1.00  0.00  1.00 </elem>
+    <elem> 0.00 -0.00 -0.00  0.00  0.00 -0.00 -0.60  0.00  1.00 </elem>
   </ParameterCorrelations>
 </MinimiseResult>

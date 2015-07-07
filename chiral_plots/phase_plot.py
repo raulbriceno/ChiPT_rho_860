@@ -100,8 +100,8 @@ for i0 in range(len(output)):
   if part_type==0.0:
     #if dy>2.0*y:
     #y=y+180
-    if dy <20: 
-      plt.errorbar(x/ats[0],y,yerr=dy,xerr=dx,markersize=8,fmt='o',color='r',mfc='white',mec='r', elinewidth=2, capsize=6, mew=1.4)
+    if dy <2000: 
+      plt.errorbar(x/ats[0],y,yerr=dy,xerr=dx/ats[0],markersize=8,fmt='o',color='r',mfc='white',mec='r', elinewidth=2, capsize=6, mew=1.4)
                              
 
 plt.subplot(212)

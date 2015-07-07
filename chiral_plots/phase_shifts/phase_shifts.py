@@ -148,7 +148,7 @@ def fLuscher_pcotdelta(Eout,part_type,irrep,dname,Loas):
   delta=arctan(1.0/cotd)*180.0/pi
   
   for i0 in range(len(delta)):
-      if mean(delta[i0])<0 and part_type=="pipi":
+      if delta[i0]<0 and mean(Eout)>0.11 and part_type=="pipi":
         delta[i0]=delta[i0]+180.0
   
   return delta
@@ -186,6 +186,9 @@ for i0 in range(len(states)):
   
   y,dy=mean(ps),std(ps)  
   print irrep,x,dx,y,dy 	
+  if mean(Eout)> 4.0*mpi:
+    print states[i0]
+
   #if irrep=="B1" and dname=="110": 
   output.append([0,x,dx,y,dy])
   """
