@@ -31,7 +31,7 @@ Emax=1000
 
 PSmax,PSmin=[],[]
 
-for i0 in [5,11]:#range(len(ats)):
+for i0 in [0,6]:#,11]:#range(len(ats)):
   print ""
   print "*************************************"
   print i0
@@ -100,7 +100,7 @@ for i0 in range(len(output)):
   if part_type==0.0:
     #if dy>2.0*y:
     #y=y+180
-    if dy <2000: 
+    if dy <20: 
       plt.errorbar(x/ats[0],y,yerr=dy,xerr=dx/ats[0],markersize=8,fmt='o',color='r',mfc='white',mec='r', elinewidth=2, capsize=6, mew=1.4)
                              
 
