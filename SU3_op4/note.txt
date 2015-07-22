@@ -1,3 +1,0 @@
-to perform the fit using the renormalization scale equal to 0.141159342417
-
-so I had to perform several fits decreasing the renormalization scale slowly

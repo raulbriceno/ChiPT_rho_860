@@ -1,1 +1,0 @@
-plot 'plot_output.J0.data' u 1:2 w l, '' u 1:($2+$3) w l lc 1, '' u 1:($2-$3) w l lc 1, '' u 1:4 w l lc 2, '' u 1:($4+$5) w l lc 2, '' u 1:($4-$5) w l lc 2, '' u 1:6 w l lc 3, '' u 1:($6+$7) w l lc 3, '' u 1:($6-$7) w l lc 3
