@@ -31,7 +31,9 @@ Emax=1000
 
 PSmax,PSmin=[],[]
 
-for i0 in [0,6]:#,11]:#range(len(ats)):
+fpidirs=["../SU2_op4_A_Robert/plots/mpi400_chiral/","../SU2_op4_Pelaez_Rioz/plots/chiral/"]
+ats=[1.0,1.0]
+for i0 in [0,1]:#,11]:#range(len(ats)):
   print ""
   print "*************************************"
   print i0
@@ -67,7 +69,7 @@ for i0 in [0,6]:#,11]:#range(len(ats)):
   if Emax > max(Ecm):
     Emax=max(Ecm)
   Emin=min(Ecm)
-  if i0 in [0,1,2,3,4,5]:
+  if i0 in [0,2,3,4,5]:
     plt.subplot(211)
   else:
     plt.subplot(212)
@@ -103,6 +105,17 @@ for i0 in range(len(output)):
     if dy <20: 
       plt.errorbar(x/ats[0],y,yerr=dy,xerr=dx/ats[0],markersize=8,fmt='o',color='r',mfc='white',mec='r', elinewidth=2, capsize=6, mew=1.4)
                              
+plt.subplot(211)
+at_hs=0.00017649521531100477
+at_hs=0.00016680000000000002
+output=loadtxt('phase_shifts/phases_m400.txt')
+for i0 in range(len(output)):
+  [part_type,x,dx,y,dy]=output[i0]
+  print part_type,x,dx,y,dy
+  if dy <20:
+    plt.errorbar(x/at_hs,y,yerr=dy,xerr=dx/at_hs,markersize=8,fmt='o',color='r',mfc='white',mec='r', elinewidth=2, capsize=6, mew=1.4)
+
+
 
 plt.subplot(212)
 colors=['k','g']

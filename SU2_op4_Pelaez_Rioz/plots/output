@@ -1,0 +1,33 @@
+eta[J=0]: m= 0.09299 +/- 0.00056
+kaon[J=0]: m= 0.08344 +/- 7e-05
+kbar[J=0]: m= 0.08344 +/- 7e-05
+pi[J=0]: m= 0.03928 +/- 0.00018
+loading the amplitudes
+  read the channels
+  read the parameter covariance
+Initialised ChiPT parameters: J=1 p^4 SU(2) I=1
+J=1 par#1 -> L1 = -0.00628158 +/- 0.000538392
+J=1 par#2 -> L2 = 0.00211525 +/- 0.00106498
+J=1 par#3 -> L3 = 0.0483662 +/- 0
+J=1 par#4 -> L4 = -0.0276296 +/- 0.00560102
+J=1 par#0 -> fpi = 0.0155422 +/- 0
+J=1 par_corr = 
+[[1 0.94 0 0.13 0]
+ [0.94 1 0 -0.2 0]
+ [0 0 1 0 0]
+ [0.13 -0.2 0 1 0]
+ [0 0 0 0 1]]
+making plots ... 
+***********************************************
+*** plot_single_channel_elastic_phase_shift ***
+***********************************************
+writing to plot_output.J1.data
+making correlated parameter ensembles
+made correlated parameter ensembles
+plotting from Emin = 0.077 to Emax = 0.23 with 1200 points
+elastic scattering channel is pi:pi|pi:pi
+scattering amplitude is chipt
+mod_int = 0
+***********************************************
+***********************************************
+... finished making plots

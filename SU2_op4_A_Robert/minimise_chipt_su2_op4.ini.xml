@@ -56,14 +56,14 @@
         <!-- O(p^4) parameters -->
         <elem>
           <name>L1</name>
-          <start>-0.00628567211832239</start>      
+          <start>-0.00388567211832239</start>      
           <err>0.00018264</err>
-          <limited>-0.03 0.0013485</limited> 
+          <limited>-0.05 0.0013485</limited> 
           <fixed>false</fixed>    
         </elem>
         <elem>
           <name>L2</name>
-          <start>0.00212354287726839</start>  
+          <start>0.00492354287726839</start>  
           <err>0.0003658</err>
           <limited>0.0000619 0.0062619</limited> 
           <fixed>false</fixed>        
