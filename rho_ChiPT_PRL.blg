@@ -1,0 +1,138 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: rho_ChiPT_PRL.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: rho_ChiPT_PRLNotes.bib
+Database file #2: bibi.bib
+Repeated entry---line 615 of file bibi.bib
+ : @article{Lin:2008pr
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1431 of file bibi.bib
+ : @article{Briceno:2014tqa
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2841 of file bibi.bib
+ : @article{Doring:2011vk
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2855 of file bibi.bib
+ : @article{Doring:2012eu
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3084 of file bibi.bib
+ : @article{Dudek:2012gj
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3561 of file bibi.bib
+ : @article{Dudek:2011tt
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3875 of file bibi.bib
+ : @article{Beane:2011sc
+ :                      ,
+I'm skipping whatever remains of this entry
+"," immediately follows an entry type---line 3884 of file bibi.bib
+ :  Reportnumber = {UNH-11-3, NT@UW-11-12
+ :                                       , ICCUB-11-159, UCB-NPAT-11-008, NT-LBNL-11-012, JLAB-THY-11-1381},
+I'm skipping whatever remains of this entry
+Repeated entry---line 4013 of file bibi.bib
+ : @article{Aoki:2007rd
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4059 of file bibi.bib
+ : @article{Pelissier:2012pi
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4073 of file bibi.bib
+ : @article{Lang:2011mn
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4929 of file bibi.bib
+ : @article{Yamazaki:2004qb
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5978 of file bibi.bib
+ : @article{Gasser:1983yg
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6018 of file bibi.bib
+ : @article{Briceno:2014oea
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6049 of file bibi.bib
+ : @article{Dudek:2009qf
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6134 of file bibi.bib
+ : @article{Weinberg:1966kf
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6422 of file bibi.bib
+ : @article{Colangelo:2001df
+ :                          ,
+I'm skipping whatever remains of this entry
+control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{}, 
+control{apsrev41Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (-1) disabled
+Warning--missing journal in Wilson:2015dqa
+Warning--missing journal in Dudek:2014qha
+Warning--missing journal in Hansen:2015zga
+You've used 59 entries,
+            5847 wiz_defined-function locations,
+            2110 strings with 26740 characters,
+and the built_in function-call counts, 56337 in all, are:
+= -- 3689
+> -- 1415
+< -- 382
++ -- 451
+- -- 347
+* -- 8623
+:= -- 5596
+add.period$ -- 57
+call.type$ -- 59
+change.case$ -- 228
+chr.to.int$ -- 65
+cite$ -- 62
+duplicate$ -- 5235
+empty$ -- 4171
+format.name$ -- 846
+if$ -- 11222
+int.to.chr$ -- 3
+int.to.str$ -- 66
+missing$ -- 699
+newline$ -- 275
+num.names$ -- 171
+pop$ -- 2188
+preamble$ -- 1
+purify$ -- 285
+quote$ -- 0
+skip$ -- 2004
+stack$ -- 0
+substring$ -- 1558
+swap$ -- 4936
+text.length$ -- 152
+text.prefix$ -- 0
+top$ -- 10
+type$ -- 803
+warning$ -- 4
+while$ -- 177
+width$ -- 0
+write$ -- 557
+(There were 17 error messages)
