@@ -1,0 +1,20 @@
+
+statistical fit: 
+  SU2_op4_A_Robert
+
+variation in lattice spacing: 
+  SU2_op4_C_Robert
+  SU2_op4_E_Robert
+
+second lattice spacing: 
+  SU2_op4_R1
+
+variation in mpi/xi:
+  SU2_op4_sys1
+  SU2_op4_sys2
+  SU2_op4_sys3
+  SU2_op4_sys4
+
+
+
+

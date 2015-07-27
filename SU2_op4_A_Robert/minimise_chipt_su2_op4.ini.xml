@@ -9,7 +9,8 @@
     <minuit_strategy>1</minuit_strategy>
     <minuit_precision>1.0e-12</minuit_precision>
     <minos>false</minos>
-    <verbose>true</verbose>
+    <max_pass>2</max_pass>
+   <verbose>true</verbose>
   </MinimiseOptions>
 
   <!-- the global list of desired coupled channels to consider -->
@@ -63,10 +64,10 @@
         </elem>
         <elem>
           <name>L2</name>
-          <start>0.00492354287726839</start>  
+          <start>0.0</start>  
           <err>0.0003658</err>
           <limited>0.0000619 0.0062619</limited> 
-          <fixed>false</fixed>        
+          <fixed>true</fixed>        
         </elem>
         <elem>
           <name>L3</name>

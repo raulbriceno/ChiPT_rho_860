@@ -15,11 +15,11 @@
   </Channels>
 
   <Minimum>
-    <chisq>28.1195338580956</chisq>
-    <n_data>24</n_data>
+    <chisq>26.122362082303</chisq>
+    <n_data>22</n_data>
     <n_free_params>3</n_free_params>
-    <n_dof>21</n_dof>
-    <n_fcn_calls>59</n_fcn_calls>
+    <n_dof>19</n_dof>
+    <n_fcn_calls>54</n_fcn_calls>
   </Minimum>
 
   <PartialWaves>
@@ -50,15 +50,15 @@
         <elem>
           <name>L1</name>
           <num>1</num>
-          <value>-0.00625086952360667</value>
-          <error>0.000584304718496621</error>
+          <value>-0.00625020691311075</value>
+          <error>0.000537875335396456</error>
         </elem>
 
         <elem>
           <name>L2</name>
           <num>2</num>
-          <value>0.002053802095437</value>
-          <error>0.000768219411588985</error>
+          <value>0.00205249913141719</value>
+          <error>0.00105299900785001</error>
         </elem>
 
         <elem>
@@ -72,8 +72,8 @@
         <elem>
           <name>L4</name>
           <num>4</num>
-          <value>-0.0260090113251464</value>
-          <error>0.0069749015637445</error>
+          <value>-0.0259988537353659</value>
+          <error>0.00549635871766882</error>
         </elem>
 
         <elem>
@@ -90,9 +90,9 @@
 
   <ParameterCorrelations>
     <elem> 1.00  0.00  0.00  0.00  0.00 </elem>
-    <elem> 0.00  1.00  0.97  0.00  0.91 </elem>
-    <elem> 0.00  0.97  1.00  0.00  0.79 </elem>
+    <elem> 0.00  1.00  0.94  0.00  0.16 </elem>
+    <elem> 0.00  0.94  1.00  0.00 -0.17 </elem>
     <elem> 0.00  0.00  0.00  1.00  0.00 </elem>
-    <elem> 0.00  0.91  0.79  0.00  1.00 </elem>
+    <elem> 0.00  0.16 -0.17  0.00  1.00 </elem>
   </ParameterCorrelations>
 </MinimiseResult>

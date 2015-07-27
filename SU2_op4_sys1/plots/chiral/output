@@ -6,16 +6,16 @@ loading the amplitudes
   read the channels
   read the parameter covariance
 Initialised ChiPT parameters: J=1 p^4 SU(2) I=1
-J=1 par#1 -> L1 = -0.00627897 +/- 0.000554427
-J=1 par#2 -> L2 = 0.00210998 +/- 0.00100891
+J=1 par#1 -> L1 = -0.00627642 +/- 0.000539703
+J=1 par#2 -> L2 = 0.00210486 +/- 0.00105607
 J=1 par#3 -> L3 = 0.0483662 +/- 0
-J=1 par#4 -> L4 = -0.0274485 +/- 0.00543241
+J=1 par#4 -> L4 = -0.0273035 +/- 0.00556386
 J=1 par#0 -> fpi = 92.4 +/- 0
 J=1 par_corr = 
-[[1 0.95 0 0.38 0]
- [0.95 1 0 0.07 0]
+[[1 0.94 0 0.16 0]
+ [0.94 1 0 -0.17 0]
  [0 0 1 0 0]
- [0.38 0.07 0 1 0]
+ [0.16 -0.17 0 1 0]
  [0 0 0 0 1]]
 making plots ... 
 ***********************************************
@@ -23,8 +23,6 @@ making plots ...
 ***********************************************
 writing to plot_output.J1.data
 making correlated parameter ensembles
-*** Warning in ../../../../itpp/base/algebra/cholesky.cpp on line 115:
-cholesky factorization didn't succeed
 made correlated parameter ensembles
 plotting from Emin = 279 to Emax = 1350 with 1200 points
 elastic scattering channel is pi:pi|pi:pi
